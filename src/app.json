@@ -3,7 +3,19 @@
     "pages/index/main",
     "pages/logs/main",
     "pages/counter/main",
-    "pages/my/main"
+    "pages/my/main",
+    "pages/button/main",
+    "pages/cell/main",
+    "pages/toast/main",
+    "pages/dialog/main",
+    "pages/progress/main",
+    "pages/msg/main",
+    "pages/msg-fail/main",
+    "pages/msg-success/main",
+    "pages/acticle/main",
+    "pages/actionsheet/main",
+    "pages/icon/main",
+    "pages/request/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
