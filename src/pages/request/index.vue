@@ -15,6 +15,7 @@
           <span>carsName：{{item.carsName}}</span>
         </div>
       </div>
+      <span v-if="err">err: {{errContent}}</span>
     </div>
 
   </div>
@@ -26,6 +27,7 @@ export default {
   data() {
     return {
       resContent: null,
+      errContent: null
     }
   },
   methods: {
@@ -36,10 +38,13 @@ export default {
       })
       getUserInfo().then((res) => {
         wx.hideLoading();
+        console.log('res', res);
         this.resContent = res.data.data;
       }).catch((err) => {
         wx.hideLoading();
-        this.resContent = err;
+        this.errContent = err;
+        console.log('err', err);
+        // this.resContent = err;
       });
     }
   }
