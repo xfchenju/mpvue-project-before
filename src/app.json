@@ -15,7 +15,8 @@
     "pages/acticle/main",
     "pages/actionsheet/main",
     "pages/icon/main",
-    "pages/request/main"
+    "pages/request/main",
+    "pages/test/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -41,6 +42,11 @@
     }, {
       "text": "日志",
       "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/logs.png",
+      "selectedIconPath": "static/tabs/logs_active.png"
+    }, {
+      "text": "测试",
+      "pagePath": "pages/test/main",
       "iconPath": "static/tabs/logs.png",
       "selectedIconPath": "static/tabs/logs_active.png"
     }],
